@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        async function fetchOrders() {
+            const response = await fetch('/orders');
+            const orders = await response.json();
+            const ordersContainer = document.getElementById('ordersContainer');
+            ordersContainer.innerHTML = '';
+
+            orders.forEach(order => {
+                if (order.status === 'Pending') {
+                    const orderCard = document.createElement('div');
+                    orderCard.className = 'bg-gray-200 p-4 rounded-lg flex justify-between items-center';
+                    orderCard.innerHTML = `
+                        <div>
+                            <p class="font-bold">Name</p>
+                            <p>${order.name}</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">Order</p>
+                            <ul>
+    ${order.items.map(item => `<li>${item.name} - ${item.price} (${item.type})</li>`).join('')}
+</ul>
+
+                            <div>
+                                <button class="text-green-500" onclick="updateOrderStatus(${order.order_number}, 'approved')">Approve</button>
+                                <button class="text-red-500" onclick="updateOrderStatus(${order.order_number}, 'disapproved')">Disapprove</button>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-bold">Type</p>
+                            <p><p>${order.type || "Unknown"}</p></p>
+                        </div>
+                        <div>
+                            <p class="font-bold">Status</p>
+                            <p>${order.status}</p>
+                        </div>
+                    `;
+                    ordersContainer.appendChild(orderCard);
+                }
+            });
+        }
+
+        async function updateOrderStatus(order_number, status) {
+            const response = await fetch('/update-order', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ order_number, status }),
+            });
+            const data = await response.json();
+            alert(data.message);
+            fetchOrders(); // Refresh the order list
+        }
+
+        async function fetchUser() {
+            const response = await fetch('user.json');
+            const user = await response.json();
+            document.getElementById('userName').innerText = user.name;
+        }
+
+        window.onload = () => {
+            fetchOrders(); // Fetch orders on page load
+            fetchUser(); // Fetch user on page load
+        };
+    </script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-100 p-4 flex justify-between items-center border-b border-gray-300">
+        <div class="text-xl font-bold text-black">
+            <span class="text-blue-900">•</span> Restaurant Dashboard
+        </div>
+        <div id="userName" class="text-black font-bold ml-4"></div>
+    </header>
+    <div class="max-w-4xl mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-2">Orders</h1>
+        <p class="text-gray-500 mb-4">All</p>
+        <div id="ordersContainer" class="space-y-4">
+            <!-- Orders will be dynamically inserted here -->
+        </div>
+    </div>
+</body>
+</html>

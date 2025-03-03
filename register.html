@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-white">
+<div class="flex min-h-screen">
+    <div class="w-1/2 hidden md:block">
+        <img alt="Interior of a modern restaurant" class="w-full h-full object-cover" height="800" src="https://storage.googleapis.com/a1aa/image/TAniWuqimEl4PtU0udF7RKoUPF6f35R5-wxuWFjMUtM.jpg" width="600"/>
+    </div>
+    <div class="w-full md:w-1/2 flex items-center justify-center p-8">
+        <div class="w-full max-w-md">
+            <form class="bg-gray-100 p-8 rounded-lg shadow-md" id="registerForm">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">E-mail</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" placeholder="E-mail" type="email" required/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="text">Name</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" placeholder="name" type="text" required/>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" placeholder="Password" type="password" required/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="userType">User Type</label>
+                    <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="userType" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option value="customer">Customer</option>
+                        <option value="restaurant">Restaurant</option>
+                    </select>
+                </div>
+                <div class="flex items-center justify-between">
+                    <a class="inline-block align-baseline font-bold text-sm text-gray-600 hover:text-gray-800" href="index.html">
+                        Already have an account? Log in
+                    </a>
+                </div>
+                <div class="mt-6">
+                    <button class="w-full bg-brown-500 hover:bg-brown-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" id="submitBtn" type="submit">
+                        Register
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('registerForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const userType = document.getElementById('userType').value;
+        const name = document.getElementById('name').value;
+
+        // Send a POST request to the server
+        fetch('http://localhost:5000/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email, password, userType ,name})
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('User already exists.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            alert(data.message);
+            document.getElementById('registerForm').reset();
+            window.location.href = 'index.html';
+        })
+        .catch(error => {
+            alert(error.message);
+        });
+    });
+</script>
+</body>
+</html>

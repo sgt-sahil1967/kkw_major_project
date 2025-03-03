@@ -1,0 +1,560 @@
+[
+    {
+        "name": "customer@example.com",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 1
+    },
+    {
+        "name": {
+            "email": "customer@example.com",
+            "password": "customer123",
+            "role": "customer",
+            "name": "John Doe",
+            "totalOrders": 10,
+            "cancellations": 2
+        },
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 2
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "approved",
+        "order_number": 3
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 4
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 5
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "approved",
+        "order_number": 6
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "approved",
+        "order_number": 7
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "approved",
+        "order_number": 8
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 9
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 10
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 11
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "order_number": 12
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            }
+        ],
+        "status": "disapproved",
+        "type": "order_type",
+        "order_number": 13
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Chana Masala",
+                "price": "160",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 14
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Dal Makhani",
+                "price": "250",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 15
+    },
+    {
+        "name": "Alice Smith",
+        "items": [
+            {
+                "name": "Chana Masala",
+                "price": "160",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 16
+    },
+    {
+        "name": "Charlie Brown",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            },
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 17
+    },
+    {
+        "name": "Charlie Brown",
+        "items": [
+            {
+                "name": "Chana Masala",
+                "price": "160",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 18
+    },
+    {
+        "name": "Charlie Brown",
+        "items": [
+            {
+                "name": "Vegetable Korma",
+                "price": "295",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 19
+    },
+    {
+        "name": "Alice Smith",
+        "items": [
+            {
+                "name": "Palak Paneer",
+                "price": "285",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 20
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Baingan Bharta",
+                "price": "170",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 21
+    },
+    {
+        "name": "Pizza Place",
+        "items": [
+            {
+                "name": "Sprouts Salad",
+                "price": "130",
+                "type": "Diet"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 22
+    },
+    {
+        "name": "Pizza Place",
+        "items": [
+            {
+                "name": "Masala Oats",
+                "price": "125",
+                "type": "Diet"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 23
+    },
+    {
+        "name": "Pizza Place",
+        "items": [
+            {
+                "name": "Masala Oats",
+                "price": "125",
+                "type": "Diet"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 24
+    },
+    {
+        "name": "John Doe",
+        "items": [
+            {
+                "name": "Rajma Masala",
+                "price": "155",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Good",
+        "order_number": 25
+    },
+    {
+        "name": "awd",
+        "items": [
+            {
+                "name": "Vegetable Biryani",
+                "price": "320",
+                "type": "Veg"
+            }
+        ],
+        "status": "Pending",
+        "type": "Bad",
+        "order_number": 26
+    }
+]

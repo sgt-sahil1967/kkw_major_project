@@ -1,0 +1,84 @@
+[
+    {
+        "email": "customer@example.com",
+        "password": "customer123",
+        "role": "customer",
+        "name": "John Doe",
+        "totalOrders": 10,
+        "cancellations": 2
+    },
+    {
+        "email": "restaurant@example.com",
+        "password": "restaurant123",
+        "role": "restaurant",
+        "name": "Pizza Place",
+        "totalOrders": 4,
+        "cancellations": 2
+    },
+    {
+        "email": "admin@example.com",
+        "password": "admin123",
+        "role": "admin",
+        "name": "Admin User",
+        "totalOrders": 3,
+        "cancellations": 1
+    },
+    {
+        "email": "customer3@example.com",
+        "password": "123123",
+        "role": "customer",
+        "name": "Alice Smith",
+        "totalOrders": 0,
+        "cancellations": 0
+    },
+    {
+        "email": "rest123@example.com",
+        "password": "123123",
+        "role": "restaurant",
+        "name": "Burger Joint",
+        "totalOrders": 0,
+        "cancellations": 0
+    },
+    {
+        "email": "rest123@g.com",
+        "password": "123123",
+        "role": "customer",
+        "name": "Bob Johnson",
+        "totalOrders": 0,
+        "cancellations": 0
+    },
+    {
+        "email": "customer5@example.com",
+        "password": "customer123",
+        "role": "customer",
+        "name": "Charlie Brown",
+        "totalOrders": 1,
+        "cancellations": 1
+    },
+    {
+        "email": "sakshi@gmai.com",
+        "password": "123123",
+        "role": "customer",
+        "name": "Sakshi Kamble",
+        "totalOrders": 0,
+        "cancellations": 0
+    },
+    {
+        "email": "ws@gmail.com",
+        "password": "wqdd",
+        "userType": "customer"
+    },
+    {
+        "email": "vee3@gmail.com",
+        "password": "123456",
+        "userType": "customer"
+    },
+    {
+        "email": "awd@gmail.com",
+        "password": "password",
+        "role": "customer",
+        "name": "awd",
+        "totalOrders": 3,
+        "cancellations": 2
+    }
+]

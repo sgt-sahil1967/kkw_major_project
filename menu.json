@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Palak Paneer",
+        "image": "images/palak-paneer-recipe.jpg",
+        "type": "Veg",
+        "description": "Creamy spinach with cottage cheese.",
+        "price": "285"
+    },
+    {
+        "name": "Vegetable Biryani",
+        "image": "images/veg_bir.jpg",
+        "type": "Veg",
+        "description": "Fragrant rice with mixed vegetables and spices.",
+        "price": "320"
+    },
+    {
+        "name": "Dal Makhani",
+        "image": "images/dal.jpg",
+        "type": "Veg",
+        "description": "Rich and buttery lentil curry.",
+        "price": "250"
+    },
+    {
+        "name": "Chana Masala",
+        "image": "images/chana.jpg",
+        "type": "Veg",
+        "description": "Chickpea curry with a tangy and spicy flavor.",
+        "price": "160"
+    },
+    {
+        "name": "Aloo Gobi",
+        "image": "images/aloo.jpg",
+        "type": "Veg",
+        "description": "Potato and cauliflower stir-fry with spices.",
+        "price": "145"
+    },
+    {
+        "name": "Vegetable Korma",
+        "image": "images/veg_korma.jpg",
+        "type": "Veg",
+        "description": "A mild and creamy mixed vegetable curry.",
+        "price": "295"
+    },
+    {
+        "name": "Rajma Masala",
+        "image": "images/rajma.jpg",
+        "type": "Veg",
+        "description": "Red kidney bean curry.",
+        "price": "155"
+    },
+    {
+        "name": "Baingan Bharta",
+        "image": "images/baingan.jpg",
+        "type": "Veg",
+        "description": "Roasted eggplant mash with spices.",
+        "price": "170"
+    },
+    {
+        "name": "Butter Chicken",
+        "image": "images/butter_chicken.jpg",
+        "type": "Non-Veg",
+        "description": "Tandoori chicken in a creamy tomato sauce.",
+        "price": "450"
+    },
+    {
+        "name": "Chicken Biryani",
+        "image": "images/chicken-biryani-5.jpg",
+        "type": "Non-Veg",
+        "description": "Fragrant rice with chicken and spices.",
+        "price": "380"
+    },
+    {
+        "name": "Rogan Josh",
+        "image": "images/rogan_josh.jpg",
+        "type": "Non-Veg",
+        "description": "Aromatic lamb curry.",
+        "price": "520"
+    },
+    {
+        "name": "Fish Curry",
+        "image": "images/fish_curry.jpg",
+        "type": "Non-Veg",
+        "description": "A flavorful curry made with fish and spices.",
+        "price": "350 - 600"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "image": "images/chicken-tikka-masala.JPG",
+        "type": "Non-Veg",
+        "description": "Grilled chicken in a creamy tomato-based sauce.",
+        "price": "360"
+    },
+    {
+        "name": "Mutton Korma",
+        "image": "images/mutton korma.webp",
+        "type": "Non-Veg",
+        "description": "A rich and flavorful mutton curry.",
+        "price": "550"
+    },
+    {
+        "name": "Tandoori Chicken",
+        "image": "images/Tandoori-Chicken.jpg",
+        "type": "Non-Veg",
+        "description": "Chicken marinated in yogurt and spices, then roasted in a tandoor.",
+        "price": "330"
+    },
+    {
+        "name": "Prawn Curry",
+        "image": "images/prawn-curry.jpg",
+        "type": "Non-Veg",
+        "description": "A delicious curry made with prawns and coconut milk.",
+        "price": "480"
+    },
+    {
+        "name": "Moong Dal Cheela",
+        "image": "images/moong-dal-chilla.jpg",
+        "type": "Diet",
+        "description": "Protein-rich lentil pancake.",
+        "price": "120"
+    },
+    {
+        "name": "Vegetable Dalia",
+        "image": "images/vegetable daliya.jpg",
+        "type": "Diet",
+        "description": "Fiber-filled broken wheat porridge.",
+        "price": "110"
+    },
+    {
+        "name": "Sprouts Salad",
+        "image": "images/Sprout-Salad.jpg",
+        "type": "Diet",
+        "description": "Protein and vitamin-packed sprout mix.",
+        "price": "130"
+    },
+    {
+        "name": "Besan Chilla",
+        "image": "images/Besan-Chilla.jpg",
+        "type": "Diet",
+        "description": "Chickpea flour pancake, high in protein.",
+        "price": "115"
+    },
+    {
+        "name": "Ragi Roti",
+        "image": "images/ragi-roti-ragi-rotti.jpg",
+        "type": "Diet",
+        "description": "High-fiber, calcium-rich flatbread.",
+        "price": "100"
+    },
+    {
+        "name": "Masala Oats",
+        "image": "images/masala_oats.jpg",
+        "type": "Diet",
+        "description": "Spiced vegetable oatmeal.",
+        "price": "125"
+    },
+    {
+        "name": "Lentil Soup (Dal Shorba)",
+        "image": "images/lentil_soup.jpg",
+        "type": "Diet",
+        "description": "Light, protein-rich lentil soup.",
+        "price": "140"
+    }
+]

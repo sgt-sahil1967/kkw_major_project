@@ -1,0 +1,9 @@
+{
+    "restaurant@example.com": [
+        {
+            "name": "Lentil Soup (Dal Shorba)",
+            "price": "140",
+            "type": "Diet"
+        }
+    ]
+}
